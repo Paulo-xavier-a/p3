@@ -30,7 +30,7 @@ body {
     }
     
     #container{
-        width: 100%;
+        width: flex;
         max-width: 588px;
       
        margin:56px auto 0px;
