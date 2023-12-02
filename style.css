@@ -30,7 +30,8 @@ body {
     }
     
     #container{
-        width: flex;
+       
+        width: auto;
         max-width: 588px;
       
        margin:56px auto 0px;
@@ -85,12 +86,13 @@ body {
        -webkit-backdrop-filter: blur(4px);
        border-radius: 9999px;
     }
-    
+
     ul  {
+    padding: 40px;
     list-style: none;
     display: flex;
     flex-direction:column;
-     gap: 16px ;
+    gap: 16px ;
     }
     ul li a {
     display: flex;
