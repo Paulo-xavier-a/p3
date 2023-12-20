@@ -42,6 +42,7 @@ body {
         padding: 24px;
     }
     #profile img{
+        align-items: center;
         width: 112px;
     }
     
