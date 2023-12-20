@@ -30,12 +30,12 @@ body {
     }
     
     #container{
-       text-align: center;
+       
         width: auto;
         max-width: 588px;
       
        margin:56px auto 0px;
-    padding: 0 24px; 
+     padding: 0 24px; 
     }
     #profile {
         text-align: center;
@@ -47,9 +47,9 @@ body {
     }
     
     #profile p {
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: 8px;
+     font-weight: 500;
+     line-height: 24px;
+     margin-top: 8px;
     }
     
     #switch{
@@ -63,7 +63,7 @@ body {
         width: 32px;
         height: 32px;
         background: white var(--switch-bg-url) no-repeat center;
-        border: 0;
+        border: 1px;
         border-radius: 50%;
         position: absolute;
         top: 50%;
@@ -89,24 +89,24 @@ body {
     }
 
     ul  {
-    padding: 40px;
-    list-style: none;
-    display: flex;
-    flex-direction:column;
-    gap: 16px ;
+     padding: 40px;
+     list-style: none;
+     display: flex;
+     flex-direction:column;
+     gap: 16px ;
     }
-    ul li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px;
-    background: rgba(255,255,255,0.1);
-    border: 1px solid var(--stroke-color);
-    border-radius: 8px;
-    backdrop-filter: blur(4px);
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.5s;
+     ul li a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 24px;
+     background: rgba(255,255,255,0.1);
+     border: 1px solid var(--stroke-color);
+     border-radius: 8px;
+     backdrop-filter: blur(4px);
+     text-decoration: none;
+     font-weight: 500;
+     transition: background 0.5s;
     }
     
     ul li a:hover{
@@ -148,8 +148,8 @@ body {
         }
     }
     @keyframes slide-in {
-    from{left: 0;}
-    to{left: 50%;}
+     from{left: 0;}
+     to{left: 50%;}
     }
     @keyframes slide-back {
         from{left: 50%;}
