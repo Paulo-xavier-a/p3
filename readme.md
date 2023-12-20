@@ -1,1 +1,2 @@
-Ola, me chamo Paulo Ricardo este e meu primeiro projeto na area 
+Ola, me chamo Paulo Ricardo este e meu primeiro projeto na area de desenvolvedor frontend
+
